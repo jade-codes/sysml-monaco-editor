@@ -1,0 +1,20 @@
+{
+  "name": "lsp-ws-proxy",
+  "version": "1.0.0",
+  "main": "lsp-server-proxy.js",
+  "scripts": {
+    "dev": "node lsp-server-proxy.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "setup": "node setup-sysml.js",
+    "postinstall": "npm run setup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cross-spawn": "^7.0.6",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}

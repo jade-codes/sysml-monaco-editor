@@ -1,0 +1,22 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: Inter, system-ui, Arial, Helvetica, sans-serif;
+}
+
+#root {
+  padding: 12px;
+}
+
+/* Monaco Editor styles - ensure they're available globally */
+.monaco-editor .suggest-widget {
+  z-index: 1000000 !important;
+}
+
+.monaco-editor .hover-row {
+  z-index: 1000000 !important;
+}
+
+.monaco-editor .monaco-hover {
+  z-index: 1000000 !important;
+}
